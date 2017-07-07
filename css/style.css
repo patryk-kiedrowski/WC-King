@@ -11,5 +11,187 @@ body
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: white;
+}
+
+.container-fluid
+{
   width: 1172px;
+}
+
+.nav .navbar-nav
+{
+  width: 33%;
+}
+
+.nav-text
+{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 29px;
+  padding: 15 0 !important;
+}
+
+.nav>li>a
+{
+  padding: 15px 0px;
+}
+
+#container>.nav>li>a
+{
+  padding: 0px;
+  line-height: 50px;
+}
+
+#container>.navbar-default .navbar-nav>li>a
+{
+  color: white;
+}
+
+#container>.navbar-default .navbar-nav>li>a:hover
+{
+  text-decoration: underline;
+  color: white;
+}
+
+.nav
+{
+  width: 644px;
+}
+
+.navbar
+{
+  margin-bottom: 0px;
+}
+
+.navbar-default
+{
+  height: 84px;
+  padding-top: 15px;
+  background-color: #de6890;
+  border: 0px;
+  border-radius: 0;
+}
+
+.wc-logo
+{
+  width: 150px;
+  margin-top: -25px;
+  position: relative;
+  margin-left: 116px;
+}
+
+/*COLLAPSED NAVBAR CSS - BUTTON*/
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+/* COLLAPSED NAVBAR CSS AND MEDIA QUERIES */
+@media (max-width: 1190px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+      margin-right: 20px;
+  }
+
+  .container-fluid
+  {
+    width: 80vw;
+  }
+
+  .navbar-default
+  {
+    margin-right: 0px;
+  }
+
+  .navbar-default .navbar-collapse
+  {
+    border: 0px;
+  }
+
+  #myNavbar
+  {
+    background-color: #de6890;
+    width: 100%;
+    margin: 0px;
+    padding-right: 0px;
+  }
+
+  .nav-text
+  {
+    margin-left: 30px !important;
+    text-align: right;
+  }
+
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+
+  .telephone
+  {
+    width: 160px !important;
+    margin-right: 8vw !important;
+    margin-left: auto !important;
+    padding-left: 0px !important;
+  }
+}
+
+/* MAIN SECTION STARTS HERE */
+
+#top-wrapper
+{
+  height: 1000px;
+  background-image: url("../img/bgtop.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.telephone
+{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 18px;
+  padding-left: 982px;
+  width: 1172px;
+  height: 33px;
+}
+
+.telephone-number
+{
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.telephone-icon
+{
+  display: inline-block;
 }
