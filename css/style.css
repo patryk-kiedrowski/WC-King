@@ -195,3 +195,30 @@ body
 {
   display: inline-block;
 }
+/**/
+
+.jumbotron
+{
+  width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+  background-color: rgba(255,255,255,0);
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+.jumbotron-description
+{
+  margin-top: -20px;
+  line-height: 24px;
+  font-size: 24px;
+}
+
+.jumbotron-description-pink
+{
+  color: #de6890;
+}
