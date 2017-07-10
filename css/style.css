@@ -1,3 +1,11 @@
+/* BUGI I DO ZROBIENIA
+
+- nie działa hover pierwszego guzika
+
+- poprawić przejście na 1200px, a nie 1190
+- dorobić stylizowanie kibli po przejściu na <1200px
+*/
+
 body
 {
   font-family: 'Raleway', sans-serif;
@@ -168,10 +176,10 @@ body
 
 #top-wrapper
 {
-  height: 1000px;
   background-image: url("../img/bgtop.png");
   background-repeat: no-repeat;
   background-position: center center;
+  min-height: 900px;
 }
 
 .telephone
@@ -209,11 +217,11 @@ body
   text-transform: uppercase;
   font-size: 54px;
   font-weight: 700;
+  line-height: 54px;
 }
 
 .jumbotron-description
 {
-  margin-top: -20px;
   line-height: 24px;
   font-size: 24px;
 }
@@ -221,4 +229,120 @@ body
 .jumbotron-description-pink
 {
   color: #de6890;
+}
+
+#container>#top-wrapper>.jumbotron>.btn
+{
+  margin-top: 45px;
+  width: 192px;
+  height: 60px;
+  border: none;
+  border-radius: 0;
+  background-color: #de6890;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: 700;
+  color: white;
+}
+
+.top-wrapper-transition
+{
+  margin-top: -30px;
+  background-image: url("../img/top-wrapper-transition.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 440px;
+  z-index: 9999;
+}
+
+#top-offer-items
+{
+  padding-top: 100px;
+  background-color: #616567;
+}
+
+.left-item
+{
+  width: 572px;
+  margin-left: auto;
+  padding-right: 84px;
+  text-align: center;
+
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.right-item
+{
+  width: 572px;
+  margin-right: auto;
+  padding-left: 84px;
+  text-align: center;
+
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.item-description
+{
+  margin: 25px auto 75px auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 430px;
+}
+
+.show-more
+{
+  width: 160px;
+  height: 60px;
+  border: none;
+  border-radius: 0;
+  background-color: #de6890;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: 700;
+  color: white;
+}
+
+.wc-left
+{
+  display: block;
+  margin-left: auto;
+  padding-right: 195px;
+  margin-top: -460px;
+}
+
+.container-right
+{
+  display: block;
+  margin-right: auto;
+  padding-left: 195px;
+  margin-top: -381px;
+}
+
+.row
+{
+  margin: 0;
+}
+
+/* WYSOKOŚĆ SZAREGO TO 180PX */
+
+#offer-about-transition
+{
+  margin-top: -240px;
+  height: 355px;
+  background-image: url("../img/offer-about-transition.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#about
+{
+  height: 495px;
+  background-color: white;
 }
