@@ -448,6 +448,9 @@ body
   width: 970px;
   margin: 0 auto;
   padding-top: 75px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-around;
 }
@@ -468,9 +471,63 @@ body
 
 #service-transport
 {
+  background-color: white;
   background-image: url("../img/multi-section-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 1456px;
+}
+
+.main-shapes
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service
+{
+  padding-top: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 430px;
+}
+
+.header-white
+{
+  margin: 0 auto 0 auto;
+  margin-top: 30px;
+  width: 170px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+
+.white-description
+{
+  margin: 40px auto 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  width: 430px;
+  text-align: center;
+}
+
+.transport
+{
+  margin-top: 180px;
+  margin-bottom: -10px;
+}
+
+.transport-alt
+{
+  width: 430px;
+  margin-top: 40px;
+  padding-top: 0px;
+  text-align: center;
+
 }
