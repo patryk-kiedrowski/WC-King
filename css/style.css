@@ -1,9 +1,5 @@
 /* BUGI I DO ZROBIENIA
 
-- nie działa hover pierwszego guzika
-
-- poprawić przejście na 1200px, a nie 1190
-- dorobić stylizowanie kibli po przejściu na <1200px
 - dorobić h1, h2 itp do nagłówków
 */
 
@@ -98,7 +94,7 @@ body
 
 /*----------------------------------------------------------------------------------------------------------------*/
 /* COLLAPSED NAVBAR CSS AND MEDIA QUERIES */
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .navbar-header {
       float: none;
   }
@@ -214,7 +210,7 @@ body
     padding-right: 0 !important;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -460px;
+    margin-top: -400px !important;
   }
 
   .container-right
@@ -302,6 +298,13 @@ body
   line-height: 48px;
   font-weight: 700;
   color: white;
+}
+
+#container>#top-wrapper>.jumbotron>.btn:hover
+{
+  background-color: #de6890;
+  color: white;
+  text-decoration: underline;
 }
 
 .top-wrapper-transition
@@ -403,4 +406,71 @@ body
 {
   height: 495px;
   background-color: white;
+}
+
+.btn-default:hover
+{
+  background-color: #de6890;
+  color: white;
+  text-decoration: underline;
+}
+
+
+#about
+{
+  min-height: 500px;
+}
+
+.header-gray
+{
+  margin: 0 auto 0 auto;
+  padding-top: 80px;
+  width: 350px;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  color: #616567;
+}
+
+.gray-description
+{
+  margin: 50px auto 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #616567;
+  width: 760px;
+  text-align: center;
+}
+
+.logos
+{
+  width: 970px;
+  margin: 0 auto;
+  padding-top: 75px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-original-size
+{
+  height: 100%;
+  margin-bottom: 0px;
+  margin-top: auto;
+}
+
+.img-original-size:nth-child(5)
+{
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+
+#service-transport
+{
+  background-image: url("../img/multi-section-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 1456px;
 }
