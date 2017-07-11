@@ -96,8 +96,9 @@ body
   background-color: white;
 }
 
+/*----------------------------------------------------------------------------------------------------------------*/
 /* COLLAPSED NAVBAR CSS AND MEDIA QUERIES */
-@media (max-width: 1190px) {
+@media (max-width: 1200px) {
   .navbar-header {
       float: none;
   }
@@ -171,8 +172,64 @@ body
     margin-left: auto !important;
     padding-left: 0px !important;
   }
+
+  /* COLLAPSED WC AND 1000l CONTAINER */
+
+  .left-item
+  {
+    width: 572px;
+    padding-right: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .right-item
+  {
+    width: 572px;
+    padding-left: 0 !important;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .item-description
+  {
+    margin: 25px auto 75px auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 430px;
+  }
+
+  .wc-left
+  {
+    display: block;
+    padding-right: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -460px;
+  }
+
+  .container-right
+  {
+    display: block;
+    margin-top: 100px !important;
+    padding-left: 0 !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+  }
+
 }
 
+/*----------------------------------------------------------------------------------------------------------------*/
 /* MAIN SECTION STARTS HERE */
 
 #top-wrapper
