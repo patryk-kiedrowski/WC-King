@@ -585,6 +585,7 @@ input
   margin-left: 26px;
   font-size: 16px;
   color: white;
+  font-weight: 400;
   border: none;
 }
 
@@ -603,6 +604,7 @@ textarea
   background-color: #616567;
   border: none;
   font-size: 16px;
+  font-weight: 400;
   resize: none;
 }
 
