@@ -419,6 +419,7 @@ body
   background-position: center center;
   background-size: cover;
   height: 750px;
+  margin-top: -1px;
 }
 
 .contact-description
